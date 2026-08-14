@@ -25,14 +25,26 @@ The main problem of the school canteen’s queue is its Efficiency, the system c
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
-Write the sub-problem you selected.
+Sub-Problem 1
 ### Pseudocode
 START
-ASSIGN Product
-INPUT " Enter what to buy" 
-IF Product is school supplies
-ELSEIF Product is Meal
-ELSEIF Product is Snacks
+DISPLAY available products
+INPUT "Enter the product you want to buy"
+
+IF product is available THEN
+    ADD product to order
+    DISPLAY "Product added to order"
+ELSE
+    DISPLAY "Product is unavailable"
+END IF
+
+DISPLAY "Proceed to payment"
+INPUT amount paid
+CALCULATE change = amount paid - total price
+DISPLAY change
+
+UPDATE inventory
+DISPLAY "Order complete"
 
 END
 ---
