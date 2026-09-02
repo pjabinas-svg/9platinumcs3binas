@@ -16,5 +16,5 @@
 
 ### Activity 4 - OOPAct
 [OOPAct.md](q1/OOPAct.md)
-[OOPimage.png.png](q1/OOPimage.png.png)
+[OOPActimage](q1/OOPActimage.png)
 ---

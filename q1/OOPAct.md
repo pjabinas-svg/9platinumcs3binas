@@ -16,7 +16,7 @@
 |releaseSong(Title:string) |Release a single track |
 |performConcert() |Perform an album or song |
 ## Class Diagram
-![ClassDiagram](OOPimage.png.png)
+![Class Diagram](OOPActimage.png)
 ## Design Explanation
 ### It models a real-world musician or group to hold all their info and actions in one place.
 ### It identifies who the artist is so you can link their songs, albums, and listeners to them.
