@@ -15,9 +15,8 @@
 | | |
 | | |
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+![ClassDiagram](OOPimage.png.png)
 ## Design Explanation
 ### Why did you choose this class?
 ### Which property is the most important? Why?
 ### Which method is the most useful? Why?
-![Classpng](OOPimage.png.png)
