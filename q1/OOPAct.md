@@ -11,9 +11,9 @@
 ## Methods
 | Method | Description |
 |---|---|| | |
-|releaseAlbum(title:string)|Release a whole album with multiple tracks |
-|releaseSong(title:string) |Release a single track |
-|performConcert(play:boolen) |Perform an album or song |
+| releaseAlbum(title:string)| Release a whole album with multiple tracks |
+| releaseSong(title:string) | Release a single track |
+| performConcert(play:boolen) | Perform an album or song |
 ## Class Diagram
 ![Class Diagram](OOPActimage.png)
 ## Design Explanation
