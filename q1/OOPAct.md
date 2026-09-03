@@ -1,6 +1,6 @@
 # SG4 - Understanding Classes and Objects
 ## Artist
-## a person who creates, performs, or expresses original ideas through musical art
+## A person who creates, performs, or expresses original ideas through musical art. Through musical instruments, production, vocals that shape the musical piece.
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
@@ -11,10 +11,9 @@
 ## Methods
 | Method | Description |
 |---|---|| | |
-
-|releaseAlbum()|Release a whole album with multiple tracks |
-|releaseSong(Title:string) |Release a single track |
-|performConcert() |Perform an album or song |
+|releaseAlbum(title:string)|Release a whole album with multiple tracks |
+|releaseSong(title:string) |Release a single track |
+|performConcert(play:boolen) |Perform an album or song |
 ## Class Diagram
 ![Class Diagram](OOPActimage.png)
 ## Design Explanation
