@@ -14,7 +14,7 @@
 ### ILA 3-1 — Applying the Four Pillars of OOP
 [ILA 3-1](q1/ila_oop.md)
 
-### Activity 4 - OOPAct
+### Activity 4 - UML
 [OOPAct.md](q1/OOPAct.md)
 [OOPActimage](q1/OOPActimage.png)
 ---
