@@ -14,11 +14,11 @@
 ## Methods
 | Method | Description |
 |---|---|
-|releaseAlbum(title:string)|Release a whole album with multiple tracks |
-|releaseSong(title:string) |Release a single track |
-|performConcert(play:boolen)|Perform an album or song |
+|+releaseAlbum(title:string)|Release a whole album with multiple tracks |
+|+releaseSong(title:string) |Release a single track |
+|+performConcert(play:boolean)|Perform an album or song |
 ## Class Diagram
-![Class Diagram](<NEW OOPACTmd image.png>)
+![Class Diagram](UpadtedOopactmdimage.png)
 ## Design Explanation
 ### It models a real-world musician or group to hold all their info and actions in one place.
 ### It identifies who the artist is so you can link their songs, albums, and listeners to them.
