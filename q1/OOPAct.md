@@ -24,6 +24,7 @@
 ### It identifies who the artist is so you can link their songs, albums, and listeners to them.
 ### releaseSong(Title : String) — Releasing tracks is what artists do most often to add new music and attract listeners.
 ## Design Revisions 
-No major changes were needed from my original design
+added address, earnings to properties and added public and private properties
+Updated image
 
 --
