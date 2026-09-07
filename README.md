@@ -17,4 +17,17 @@
 ### Activity 4 - UML
 [OOPAct.md](q1/OOPAct.md)
 [OOPActimage](q1/OOPActimage.png)
+
+## Design Revision
+Changes from my previous design:
+- ...
+- ...
+
+
+No major changes were needed from my original design.
+
+
+
+
+
 ---

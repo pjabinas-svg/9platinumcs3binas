@@ -20,3 +20,6 @@
 ### It models a real-world musician or group to hold all their info and actions in one place.
 ### It identifies who the artist is so you can link their songs, albums, and listeners to them.
 ### releaseSong(Title : String) — Releasing tracks is what artists do most often to add new music and attract listeners.
+## Design Revisions 
+No major changes were needed from my original design
+--
