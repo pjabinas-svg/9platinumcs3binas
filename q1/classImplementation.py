@@ -16,22 +16,47 @@
 
 
 class Artist:
-def __init__(self, Genre, Album, Monthly_listeners, Name, Adress, Earnings):
-self.attribute1 = Genre
-self.attribute2 = Album
-self.attribute3 = Monthly_listeners
-self.attribute4 = Name
-self.__private_attribute1 = Adress
-self.___private_attribute2 = Earnings
+    def __init__(self, Genre, Album, Monthly_listeners, Name, Adress, Earnings):
+        self.attribute1 = Genre
+        self.attribute2 = Album
+        self.attribute3 = Monthly_listeners
+        self.attribute4 = Name
+        self.__private_attribute1 = Adress
+        self.__private_attribute2 = Earnings
 
-def releaseAlbum(self, title):
+    def releaseAlbum(self, title):
         print(self.attribute4 + " released the album " + title)
 
-def releaseSong(self, title):
+    def releaseSong(self, title):
         print(self.attribute4 + " released the song " + title)
 
-def performConcert(self, play):
+    def performConcert(self, play):
         if play:
             print(self.attribute4 + " is performing a concert.")
         else:
-            print(self.attribute4 + " is not performing a concert.")   
+            print(self.attribute4 + " is not performing a concert.")
+
+    def addListeners(self, amount):
+        self.attribute3 += amount
+
+    def getEarnings(self):
+        return self.__private_attribute2
+
+
+artist1 = Artist(
+    "Opm",
+    "Andalucia",
+    8000000,
+    "IV of Spades",
+    "Philippines, Manila",
+    100000
+)
+
+artist2 = Artist(
+    "Jazz",
+    "A matter of Time",
+    30000000,
+    "Laufey",
+    "Iceland, Reykjavik",
+    21000000
+)
