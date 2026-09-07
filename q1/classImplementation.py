@@ -39,7 +39,8 @@ class Artist:
     def addListeners(self, amount):
         self.attribute3 += amount
 
-    def getEarnings(self):
+    def getEarnings(self, amount):
+        self.__private_attribute2 += amount 
         return self.__private_attribute2
 
 
@@ -60,3 +61,17 @@ artist2 = Artist(
     "Iceland, Reykjavik",
     21000000
 )
+
+artist1.releaseAlbum("Andalucia")
+artist2.releaseAlbum("A matter of Time")
+
+artist1.releaseSong("Kabisado")
+artist2.releaseSong("Lover Girl")
+
+artist1.performConcert(True)
+artist2.performConcert(False)
+
+artist1.addListeners(1000000)
+
+print(artist1.getEarnings(100000))
+print(artist2.getEarnings(20000000))
