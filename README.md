@@ -9,18 +9,18 @@
 
 ### Activity 2 — Zodiac
 [Zodiac code](q1/zodiac9-PlatinumBiñas.py)
-[Zodiac image](q1/q1%20images/image.png)
+[Zodiac image](q1/images/image.png)
 
 ### ILA 3-1 — Applying the Four Pillars of OOP
 [ILA 3-1](q1/ila_oop.md)
 
 ### Activity 4 - UML
 [OOPAct.md](q1/OOPAct.md)
-[OOPact.image](q1/q1%20images/UpadtedOopactmdimage.png)
+[OOPact.image](q1/images/UpadtedOopactmdimage.png)
 
 ### Activity 5 - OOPACT Part 2
 [OOPACT2.py](q1/classImplementation.py)
-[OOPACT2.image](q1/q1%20images/imagesclassTestRun.png)
+[OOPACT2.image](q1/images/classTestRun.png)
 
 
 No major changes were needed from my original design.
