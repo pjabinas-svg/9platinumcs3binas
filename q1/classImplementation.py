@@ -76,4 +76,4 @@ artist1.addListeners(1000000)
 print(artist1.getEarnings(100000))
 print(artist2.getEarnings(20000000))
 
-[classimppyimage](q1/images/classimppyimage.png)
+#[classimppyimage](q1/images/classimppyimage.png)
