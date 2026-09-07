@@ -1,7 +1,7 @@
 
 ## Private and Public Attributes and Methods
 #|Attribute| Data Type | Visibility | Why Private or Public|
-#|--|--|--|--|--|
+#|---|---|---|---|
 #|+Genre| String | Public | This is a general attribute that can be accessed from outside the class|
 #|+Album| String | Public | This is a general attribute that can be accessed from outside the class|
 #|+Monthly listeners| Integer | Public | This is a general attribute that can be accessed from outside the class|
