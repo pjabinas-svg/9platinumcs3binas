@@ -4,10 +4,13 @@
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
-|Genre |string |a category of music |
-|Album |string |a collection of audio recordings |
-|Monthly Listeners |int |the total amount of listeners per month |
-|Name |string |Name of artist |
+|+Genre |string |a category of music |
+|+Album |string |a collection of audio recordings |
+|+Monthly Listeners |int |the total amount of listeners per month |
+|+Name |string |Name of artist |
+|-Address |string |Location of Artist |
+|-earnings |int |Earnings per month of the artist |
+
 ## Methods
 | Method | Description |
 |---|---|
@@ -22,4 +25,5 @@
 ### releaseSong(Title : String) — Releasing tracks is what artists do most often to add new music and attract listeners.
 ## Design Revisions 
 No major changes were needed from my original design
+
 --
