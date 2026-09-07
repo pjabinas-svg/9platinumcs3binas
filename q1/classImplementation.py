@@ -16,10 +16,10 @@
 
 
 class Artist:
-def __init__(self, Genre, Album, Monthly listeners, Name, Adress, Earnings):
+def __init__(self, Genre, Album, Monthly_listeners, Name, Adress, Earnings):
 self.attribute1 = Genre
 self.attribute2 = Album
-self.attribute3 = Monthly listeners
+self.attribute3 = Monthly_listeners
 self.attribute4 = Name
 self.__private_attribute1 = Adress
 self.___private_attribute2 = Earnings
