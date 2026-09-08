@@ -21,7 +21,8 @@
 ### Activity 5 - OOPACT Part 2
 [OOPACT2.py](q1/classImplementation.py)
 [OOPACT2.md](q1/classAttributesMethods.md)
-[OOPact2.image](q1/OOPAct.md)
+[OOPact2test.image](q1/images/classTestRun.png)
+[OOPact2objectdiagram.image](q1/images/objectDiagram.png)
 
 
 
