@@ -20,7 +20,9 @@
 
 ### Activity 5 - OOPACT Part 2
 [OOPACT2.py](q1/classImplementation.py)
-[OOPACT2.image](q1/images/classTestRun.png)
+[OOPACT2.md](q1/classAttributesMethods.md)
+[OOPact2.image](q1/OOPAct.md)
+
 
 
 No major changes were needed from my original design.
