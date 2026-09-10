@@ -23,6 +23,38 @@
 ### It models a real-world musician or group to hold all their info and actions in one place.
 ### It identifies who the artist is so you can link their songs, albums, and listeners to them.
 ### releaseSong(Title : String) — Releasing tracks is what artists do most often to add new music and attract listeners.
+
+## 2nd Class
+
+## Song
+
+## Properties
+| Property | Data Type | Description |
+|---|---|---|
+|+Genre |string |a category of music |
+|+Album |string |what album is the song from |
+|+Features |int |Featured artist in the song |
+|+Name |string |Name of song |
+|-Duration of song |int |how many seconds or minutes the song will last |
+|-Production |int |The overall music direction and instrumentals of the song |
+
+## Methods
+| Method | Description |
+|---|---|
+|+playSong(play:boolean)|play the song |
+|+pauseSong(pause:boolean) |pause the song |
+|+increasevolume(increaseVolume:int)|increase volume of the song |
+|+decreaseVolume(decreaseVolume:int)|decrease volume of the song |
+|+coverSong(coverSong:boolean)|Perform a song from other artist |
+
+
+#transfer the second class to md file
+
+
+
+
+
+
 ## Design Revisions 
 added address, earnings to properties and added public and private properties
 Updated image
