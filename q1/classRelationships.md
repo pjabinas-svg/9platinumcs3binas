@@ -15,7 +15,7 @@ Explanation: An Artist HAS-A Song relationship means that an artist contains one
 Multiplicity: Artist 1 ───────── 0..* Song
 Explanation: An Artist can have 0 song or many songs
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](images/imagesclassRelationshipDiagram.png)
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
