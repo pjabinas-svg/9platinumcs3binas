@@ -72,6 +72,7 @@ print(Artist1.name + " has no songs")
 print()
 print("---during relationship---")
 
+print("Adding songs to " + Artist1.name + "'s collection...")
 Artist1.addSong(Song1)
 Artist1.addSong(Song2)
 Artist1.addSong(Song3)
