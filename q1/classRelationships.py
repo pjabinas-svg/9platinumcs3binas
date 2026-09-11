@@ -63,8 +63,9 @@ Artist2 = Artist(
 
 # Create instances of Song class
 Song1 = Song("Kabisado", "IV of Spades", "OPM", "3:45", "Andalucia")
-Song2 = Song("Come Inside of My Heart", "IV of Spades", "OPM", "4:20", "CLAPCLAPCLAP")
-Song3 = Song("Mundo", "IV of Spades", "OPM", "3:30", "Orange Era")
+Song2 = Song("Mundo", "IV of Spades", "OPM", "3:30", "Orange Era")
+Song3 = Song("Come Inside of My Heart", "IV of Spades", "OPM", "4:20", "CLAPCLAPCLAP")
+
 
 print("---before relationship---")
 print(Artist1.name + " has no songs")

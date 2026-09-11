@@ -24,7 +24,12 @@ Explanation: An Artist can have 0 song or many songs
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
+An Artist HAS-A Song relationship this mean that a artist can contain one or more songs or no songs
 ### What multiplicity did you choose and why?
+An artist may have 0 songs or many songs
 ### How did you implement the relationship in Python?
+I implemented the relationship by adding a song list inside a Artist class. I used the addSong() to add a Song objects to the list
 ### Why did you store an object reference instead of copying its data?
+I stored the object reference so that the artist can directly acces the Song object and the information.
 ### If your relationship uses many, why is a list appropriate?
+A list is appropriate because one Artist can have many Song objects. The list can store multiple songs, such as Kabisado, Come Inside of My Heart, and Mundo.
