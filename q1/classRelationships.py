@@ -1,4 +1,4 @@
-class Artist:
+    class Artist:
     def __init__(self, Genre, Album, Monthly_listeners, Name, Address, Earnings):
         self.genre = Genre
         self.album = Album
@@ -7,9 +7,9 @@ class Artist:
         self.__address = Address
         self.__earnings = Earnings
         self.songs = []
-        
-    def addSong(self, song):
-    self.songs.append(song)
+
+    def addSong(self, Song):
+        self.songs.append(Song)
 
 
 class Song:
@@ -22,3 +22,6 @@ class Song:
 
     def displaySong(self):
         print(self.title + " - " + self.genre)
+
+
+    
