@@ -1,5 +1,5 @@
-    class Artist:
-    def __init__(self, Genre, Album, Monthly_listeners, Name, Address, Earnings):
+ class Artist:
+     def __init__(self, Genre, Album, Monthly_listeners, Name, Address, Earnings):
         self.genre = Genre
         self.album = Album
         self.monthly_listeners = Monthly_listeners
@@ -61,9 +61,9 @@ Artist2 = Artist(
 )
 
 # Create instances of Song class
-Song1 = Song("kabiasado", "OPM")
-Song2 = Song("Come in side of my heart", "OPM")
-Song3 = Song("Mundo", "OPM")
+Song1 = Song("Kabisado", "IV of Spades", "OPM", "3:45", "Andalucia")
+Song2 = Song("Come Inside of My Heart", "IV of Spades", "OPM", "4:20", "CLAPCLAPCLAP")
+Song3 = Song("Mundo", "IV of Spades", "OPM", "3:30", "Orange Era")
 
 print("---before relationship---")
 print(Artist1.name + " has no songs")        
@@ -75,8 +75,11 @@ Artist1.addSong(Song1)
 Artist1.addSong(Song2)
 Artist1.addSong(Song3)
 
-print("Songs published by " + Artist1.name")
-      
+print("Songs published by " + Artist1.name + ":")
+
+for song in Artist1.songs:
+    song.displaySong()
+
 print()
 print("---after relationship---")
 print("songs related to " + Artist1.name)
