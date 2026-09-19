@@ -12,3 +12,8 @@ The previous system from the last activity had  an 'Artist' class and a 'Song' c
 1. **classes currently in system** 'Artist' and 'Song'
 2. **design limitations:** same Attributes for personal data (name,age)
 
+## Inheritance Relationship
+Parent: Person
+Child: Artist
+Explanation: An `Artist` **IS-A** `Person`. The `Artist` class inherits base human traits (`name`, `age`) from `Person` using `super().__init__()` while adding domain-specific features like `genre` and `songs`.
+
