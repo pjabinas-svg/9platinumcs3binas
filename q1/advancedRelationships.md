@@ -17,3 +17,4 @@ Parent: Person
 Child: Artist
 Explanation: An `Artist` **IS-A** `Person`. The `Artist` class inherits base human traits (`name`, `age`) from `Person` using `super().__init__()` while adding domain-specific features like `genre` and `songs`.
 
+![alt text](AdvanceInheritanceDiagram.png)

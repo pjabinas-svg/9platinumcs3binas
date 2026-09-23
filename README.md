@@ -33,6 +33,7 @@
 
 ### Activity 7 - OOPACT Part 4
 
-![OOPACT4InheritanceDiagram](InheritanceDiagram.png)
+![OOPACT4InheritanceDiagram](q1/images/inheritanceDiagram.png)
+![OOPACT4AdvInheritanceDiagram](q1/images/advancedObjectDiagram.png)
 
 ---
