@@ -47,3 +47,4 @@ if __name__ == "__main__":
     print(f"Song of the Artist: {artist1.get_info()}")
     for s in artist1.songs:
         print(f"Song Title: {s}")
+
