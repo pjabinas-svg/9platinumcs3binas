@@ -23,4 +23,3 @@ Explanation:
 
 ## Reflection
 Answers:
-![alt text](AdvanceInheritanceDiagram.png)

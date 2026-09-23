@@ -1,50 +1,55 @@
 class Person:
-    def __init__(self, name, age):
+    def __init__(self, name: str, age: int):
         self.name = name
         self.age = age
 
-    def get_info(self):
+    def get_info(self) -> str:
         return f"Name: {self.name}, Age: {self.age}"
+
+
+class Song:
+    def __init__(self, title: str, duration: int):
+        self.title = title
+        self.duration = duration  # duration in seconds
+
+    def get_info(self) -> str:
+        return f"'{self.title}' ({self.duration}s)"
+
 
 class Artist(Person):
     def __init__(self, name: str, age: int, genre: str):
         super().__init__(name, age)
         self.genre = genre
-        self.songs = []
-    def add_song(self, song: str):
-        self.songs.append(song)
+        self.songs: list[Song] = []  # Holds Song instances (Aggregation)
 
-    def get_info(self):
-        parentdetails = super().get_info()
-        return f"{parentdetails}, Genre: {self.genre}, Songs: {', '.join(self.songs)}"
+    def add_song(self, song: Song):
+        """Adds a Song instance to the artist's list of songs."""
+        if isinstance(song, Song):
+            self.songs.append(song)
 
-class Song:
-    def __init__(self, title: str, duration: int):
-        self.title = title
-        self.duration = duration
+    def get_info(self) -> str:
+        parent_details = super().get_info()
+        song_titles = ", ".join([song.title for song in self.songs]) if self.songs else "No songs added"
+        return f"{parent_details}, Genre: {self.genre}, Songs: [{song_titles}]"
 
-    def get_info(self):
-        return f"Title: {self.title}, Duration: {self.duration} seconds"
 
-#--example code--
+# ==================== EXAMPLE DEMONSTRATION    ====================
 
 if __name__ == "__main__":
-    print("===Test 1: INHERITANCE (Artist IS-A Person)====")
+    print("=== Test 1: INHERITANCE (Artist IS-A Person) ===")
     artist1 = Artist("Blaster Silonga", 26, "OPM")
-    print(f"Parent Atributes Reused from Name: {artist1.name}, Age: {artist1.age}")
-    print(f"Artist Info: {artist1.get_info()}")
+    print(f"Parent Attributes Reused -> Name: {artist1.name}, Age: {artist1.age}")
+    print(f"Artist Info: {artist1.get_info()}\n")
 
-
-
-    print("/=== Test 2: AGGREGATION (Artist HAS-A Song) ====")
+    print("=== Test 2: AGGREGATION (Artist HAS-A Song) ===")
     song1 = Song("Hayy", 225)
     song2 = Song("Kabisado", 208)
 
+    # Passing Song instances instead of just title strings
+    artist1.add_song(song1)
+    artist1.add_song(song2)
 
-    artist1.add_song(song1.title)
-    artist1.add_song(song2.title)
-
-    print(f"Song of the Artist: {artist1.get_info()}")
-    for s in artist1.songs:
-        print(f"Song Title: {s}")
-
+    print(f"Artist Summary: {artist1.get_info()}\n")
+    print("Detailed Song List:")
+    for song in artist1.songs:
+        print(f" - {song.get_info()}")
