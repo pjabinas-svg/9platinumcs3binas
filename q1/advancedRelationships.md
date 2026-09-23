@@ -1,20 +1,25 @@
 # Advanced Class Relationships
-
 ## Previous Activities
-[classAttributes](classAttributesMethods.md)
-[classRelationships](classRelationships.md)
-
-## Existing System Description
-The previous system from the last activity had  an 'Artist' class and a 'Song' class connect by a basic association. But, general human traits were copied, and the implied ownership relationship between Artist and Song was not fully presented with proper semantics.
-
----
-## Existing System Review
-1. **classes currently in system** 'Artist' and 'Song'
-2. **design limitations:** same Attributes for personal data (name,age)
-
+[classAttrib](classAttributesMethods.md)
+[classRel](classRelationships.md)
+## Existing System Description:
 ## Inheritance Relationship
-Parent: Person
-Child: Artist
-Explanation: An `Artist` **IS-A** `Person`. The `Artist` class inherits base human traits (`name`, `age`) from `Person` using `super().__init__()` while adding domain-specific features like `genre` and `songs`.
+Parent:
+Child:
+Explanation:
+## Inheritance UML
+![Inheritance](images/inheritanceDiagram.png)
+## Composition/Aggregation
+Relationship:
+Explanation:
+## Advanced UML Diagram
+![Advanced UML](images/advancedClassDiagram.png)
+## Python Implementation
+[Source Code](advancedRelationships.py)
+## Test Run
+![Test](images/advancedTestRun.png)
+## Object Diagram
+![Objects](images/advancedObjectDiagram.png)
 
-![alt text](AdvanceInheritanceDiagram.png)
+## Reflection
+Answers:
