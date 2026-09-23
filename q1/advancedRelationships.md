@@ -4,9 +4,9 @@
 [classRel](classRelationships.md)
 ## Existing System Description:
 ## Inheritance Relationship
-Parent:
-Child:
-Explanation:
+Parent: `Person`
+Child: `Artist`
+Explanation: An `Artist` **IS-A** `Person`. The `Artist` class inherits core attributes (`name`, `age`) and methods (`get_info()`) from `Person`, while introducing specialized attributes like `genre` and track management behavior.
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 ## Composition/Aggregation
@@ -23,4 +23,3 @@ Explanation:
 
 ## Reflection
 Answers:
-![alt text](<Object Relationship Diagram.png>)
