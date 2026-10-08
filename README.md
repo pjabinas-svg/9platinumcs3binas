@@ -40,4 +40,11 @@
 ![OOPACT4advtestrun](q1/images/advancedTestRun.png)
 
 
+
+## 2nd Quarter Activities
+
+### Activity 1- Encapsulation activity 3
+![sg8encapsulation.py](q2/sg8_encapsulation.py)
+
+
 ---
