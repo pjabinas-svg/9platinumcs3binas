@@ -2,6 +2,17 @@ class Publication: #parent class
     def __init__(self, title, author):
         self.title = title
         self.author = author
+    def get_title(self):
+        return self.title
+    def get_author(self):
+        return self.author
+    def set_title(self, title):
+        self.title = title
+    def set_author(self, author):
+        self.author = author
+    def display_info(self):
+        
+
      
     def display_info(self):
         print(f"Title: {self.title}, \nAuthor: {self.author}")
@@ -10,6 +21,12 @@ class Book(Publication): #child class
     def __init__(self, title, author, number_of_pages): 
         super().__init__(title, author) # Inheriting the attributes of the parent class
         self.number_of_pages = number_of_pages # unique attribute for Book class
+
+    def get_number_of_pages(self):
+        return self.number_of_pages
+
+    def set_number_of_pages(self, number_of_pages):
+        self.number_of_pages = number_of_pages
      
      
     def display_info(self):
@@ -19,6 +36,12 @@ class Magazine(Publication): #child class
     def __init__(self, title, author, issue_number):
         super().__init__(title, author) # Inheriting the attributes of the parent class
         self.issue_number = issue_number # unique attribute for Magazine class
+
+    def get_issue_number(self):
+        return self.issue_number
+
+    def set_issue_number(self, issue_number):
+        self.issue_number = issue_number
 
     def display_info(self):
         print(f"Title: {self.title}, \nAuthor: {self.author}, \nIssue Number: {self.issue_number}")
