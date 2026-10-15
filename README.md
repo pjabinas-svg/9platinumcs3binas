@@ -45,6 +45,6 @@
 
 ### Activity 1- Encapsulation activity 3
 ![sg8encapsulation.py](q2/sg8_encapsulation.py)
-
+![sg8FA1.py](q2/sg8_FA1.py)
 
 ---
