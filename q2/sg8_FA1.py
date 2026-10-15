@@ -12,7 +12,7 @@ class Book(Publication): #child class
         self.number_of_pages = number_of_pages # unique attribute for Book class
 
     def display_info(self):
-        print(self.title, self.author, self.number_of_pages)
+        print(f"Title: {self.title}, Author: {self.author}, Number of Pages: {self.number_of_pages}")
 
 class Magazine(Publication): #child class
     def __init__(self, title, author, issue_number):
