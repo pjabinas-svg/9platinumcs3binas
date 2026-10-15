@@ -4,15 +4,16 @@ class Publication: #parent class
         self.author = author
      
     def display_info(self):
-        print(self.title, self.author)
+        print(f"Title: {self.title}, \nAuthor: {self.author}")
 
 class Book(Publication): #child class
     def __init__(self, title, author, number_of_pages): 
         super().__init__(title, author) # Inheriting the attributes of the parent class
         self.number_of_pages = number_of_pages # unique attribute for Book class
-
+     
+     
     def display_info(self):
-        print(f"Title: {self.title}, Author: {self.author}, Number of Pages: {self.number_of_pages}")
+        print(f"Title: {self.title}, \nAuthor: {self.author}, \nNumber of Pages: {self.number_of_pages}")
 
 class Magazine(Publication): #child class
     def __init__(self, title, author, issue_number):
@@ -20,7 +21,7 @@ class Magazine(Publication): #child class
         self.issue_number = issue_number # unique attribute for Magazine class
 
     def display_info(self):
-        print(self.title, self.author, self.issue_number)
+        print(f"Title: {self.title}, \nAuthor: {self.author}, \nIssue Number: {self.issue_number}")
 
 #objects
 pub1 = Publication("The Martian", "Andy Weir") # Parent class object example
