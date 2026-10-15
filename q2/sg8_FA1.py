@@ -11,10 +11,6 @@ class Publication: #parent class
     def set_author(self, author):
         self.author = author
     def display_info(self):
-        
-
-     
-    def display_info(self):
         print(f"Title: {self.title}, \nAuthor: {self.author}")
 
 class Book(Publication): #child class
