@@ -16,7 +16,8 @@ class Publication: #parent class
 class Book(Publication): #child class
     def __init__(self, title, author, number_of_pages): 
         super().__init__(title, author) # Inheriting the attributes of the parent class
-        self.number_of_pages = number_of_pages # unique attribute for Book class
+        self.number_of_pages = None
+        self.set_number_of_pages(number_of_pages) # unique attribute for Book class
 
     def get_number_of_pages(self):
         if self.number_of_pages < 0:
@@ -25,10 +26,15 @@ class Book(Publication): #child class
         return self.number_of_pages
 
     def set_number_of_pages(self, number_of_pages):
-        if number_of_pages < 0:
-            print("Error: Number of pages cannot be negative.")
-        else:
-            self.number_of_pages = number_of_pages
+        if not isinstance(number_of_pages, int) or isinstance(number_of_pages, bool) or number_of_pages < 0:
+            print("Error: Number of pages must be a non-negative integer.")
+            return False
+        self.number_of_pages = number_of_pages
+        return True
+
+    def validate_number_of_pages(self):
+        """Return whether the current page count is a valid non-negative number."""
+        return isinstance(self.number_of_pages, int) and self.number_of_pages >= 0
      
      
     def display_info(self):
@@ -50,7 +56,7 @@ class Magazine(Publication): #child class
 
 #objects
 pub1 = Publication("The Martian", "Andy Weir") # Parent class object example
-b1 = Book("Project Hail Mary", "Andy Weir", -460) # Book child class object example
+b1 = Book("Project Hail Mary", "Andy Weir", -1) # Book child class object example
 m1 = Magazine("National Geographic", "Various Authors", 202) # Magazine child class object example
 
 #printing the details of the objects
