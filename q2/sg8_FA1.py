@@ -19,10 +19,16 @@ class Book(Publication): #child class
         self.number_of_pages = number_of_pages # unique attribute for Book class
 
     def get_number_of_pages(self):
+        if self.number_of_pages < 0:
+            print("Error: Number of pages cannot be negative.")
+            return None
         return self.number_of_pages
 
     def set_number_of_pages(self, number_of_pages):
-        self.number_of_pages = number_of_pages
+        if number_of_pages < 0:
+            print("Error: Number of pages cannot be negative.")
+        else:
+            self.number_of_pages = number_of_pages
      
      
     def display_info(self):
@@ -44,7 +50,7 @@ class Magazine(Publication): #child class
 
 #objects
 pub1 = Publication("The Martian", "Andy Weir") # Parent class object example
-b1 = Book("Project Hail Mary", "Andy Weir", 460) # Book child class object example
+b1 = Book("Project Hail Mary", "Andy Weir", -460) # Book child class object example
 m1 = Magazine("National Geographic", "Various Authors", 202) # Magazine child class object example
 
 #printing the details of the objects
