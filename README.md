@@ -34,10 +34,11 @@
 ### Activity 7 - OOPACT Part 4
 
 ![OOPACT4InheritanceDiagram](q1/images/inheritanceDiagram.png)
-![OOPACT4AdvclassDiagram](q1/images/advancedClassDiagram.png)
+![OOPACT4AdvclassDiagram](q1/images//advanceClassDiagram.png)
 ![OOPACT4advRelationship.md](q1/advancedRelationships.md)
 ![OOPACT4advRelationship.py](q1/advancedRelationships.py)
 ![OOPACT4advtestrun](q1/images/advancedTestRun.png)
+![OOPACT4advobjectdiagram.png](q1/images/advancedObjectDiagram.png)
 
 
 
