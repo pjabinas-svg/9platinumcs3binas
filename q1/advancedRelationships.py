@@ -53,3 +53,5 @@ if __name__ == "__main__":
     print("Detailed Song List:")
     for song in artist1.songs:
         print(f" - {song.get_info()}")
+
+

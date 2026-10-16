@@ -41,6 +41,7 @@
 
 
 
+
 ## 2nd Quarter Activities
 
 ### Activity 1- Encapsulation activity 3
