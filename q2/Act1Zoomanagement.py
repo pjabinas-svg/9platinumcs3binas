@@ -31,7 +31,7 @@ class Elephant(Animals):
         print (f"{self.name} eating leaves.")
 
     def make_sound(self):
-        print (f"{self.name} noises")
+        print (f"{self.name} trumphet")
 
 #cHILD CLSAS 3
 
