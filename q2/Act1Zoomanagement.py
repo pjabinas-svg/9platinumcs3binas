@@ -43,7 +43,7 @@ class Monkey(Animals):
         print (f"{self.name} eating banana")
 
     def make_sound(self):
-        print(f"{self.name} monkey noises")
+        print(f"{self.name} chatter")
 
     
     
