@@ -46,4 +46,18 @@ class Monkey(Animals):
         print(f"{self.name} chatter")
 
     
-    
+Lion = lion("simba")
+Elephant = elephant("Dumbo")
+Monkey = monkey("George")
+
+print(Lion.make_sound())
+print(Lion.eat())
+
+
+
+
+print(Elephant.make_sound())
+print(Elephant.eat())
+
+print(Monkey.make_sound())
+print(Monkey.eat())
